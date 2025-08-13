@@ -20,6 +20,8 @@
 
 * `git branch` — Lista todas as branches e indica a atual.
 * `git branch <nome>` — Cria uma nova branch.
+* `git branch -d <nome>` — Deleta branch (só apaga se o merge já foi feito).
+* `git push origin -delete <nome>` — Deleta branch remota. Remove a branch do GitHub
 * `git checkout <nomeDaBranch>` — Troca para outra branch.
 * `git checkout -b <nome>` — Cria e muda para a nova branch.
 
